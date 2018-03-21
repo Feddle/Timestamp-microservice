@@ -3,9 +3,9 @@
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
 
-  "name": "my-glitch-app",
-  "version": "0.0.1",
-  "description": "What am I about?",
+  "name": "Timestamp-microservice",
+  "version": "1.0.0",
+  "description": "Returns provided natural or unix timestamp as an object that contains both.",
   "scripts": {
     "start": "node server.js"
   },
@@ -16,7 +16,7 @@
     "node": "9.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/my-glitch-app"
+    "url": "https://github.com/Feddle/Timestamp-microservice"
   },
   "license": "MIT",
   "keywords": [

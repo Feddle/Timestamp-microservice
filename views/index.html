@@ -10,8 +10,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome to Glitch!</title>
-    <meta name="description" content="A cool thing made with Glitch">
+    <title>Timestamp-microservice</title>
+    <meta name="Timestamp-microservice" content="Timestamp-microservice made by Feddle">
     <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,30 +19,18 @@
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-    <header>
-      <h1>
-        A Dream of the Future
-      </h1>
-    </header>
-
-    <main>
-      <p class="bold">Oh hi,</p>
-      <p>Tell me your hopes and dreams:</p>
-      <form>
-        <input type="text" maxlength="100" placeholder="Dreams!">
-        <button type="submit">Submit</button>
-      </form>
-      <section class="dreams">
-        <ul id="dreams">
-        </ul>
-      </section>
-    </main>
-
-    <footer>
-      <a href="https://glitch.com">
-        Remix this in Glitch
-      </a>
-    </footer>
+    <div id="main">
+      <h1>Timestamp-microservice</h1>
+      <p>Returns provided natural or unix timestamp as an object that contains both.</p>
+      <a href="https://github.com/Feddle/Timestamp-microservice">https://github.com/Feddle/Timestamp-microservice</a>
+      <h2>Example usage</h2>
+      <code>https://timestampt-microservice-feddle.glitch.me/December%2015,%202015</code>
+      <p></p>
+      <code>https://timestampt-microservice-feddle.glitch.me/1450137600</code>
+      <h2>Example output</h2>
+      <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
+    </div>
+  
 
     <!-- Your web-app is https, so your scripts need to be too -->
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"
